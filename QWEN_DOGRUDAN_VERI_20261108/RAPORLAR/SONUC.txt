@@ -1,21 +1,15 @@
 Tarih (Europe/Istanbul): 2026-11-09
-Cikis: /workspace/QWEN_DOGRUDAN_VERI_20261108
+full_download.py agent'ta calisiyor / calistirildi.
 
-OZET
-Ornek 50 kayit ise yaramaz. Sunucu maxRecordCount=1000; eksiksiz icin resultOffset sayfalama kullanildi.
+TAM (complete=true):
+  Yol_Anayol     7811
+  Mahalle        1311
+  Ilce_Alani       30
+  IL_Alani          1
+  Adalar           38
+  YolOrtaHatti 229740  (json.gz depoda; ham json ~242MB diskte)
 
-TAM INDIRILEN (featureCount == expectedCount):
-  FULL_CbsRehberGeoHybrid_Yol_Anayol_L2.json     7811
-  FULL_CbsRehberGeoGri_Mahalle_L157.json         1311
-  FULL_CbsRehberGeoGri_Ilce_Alani_L155.json        30
-  FULL_CbsRehberGeoGri_IL_Alani_L151.json           1
-  FULL_CbsRehberGeoGri_Adalar_L189.json            38
-  YolOrtaHatti (~229740) ve Yapi (~1102838) agent'ta devam ediyor / Windows scripti ile cekilebilir.
+DEVAM:
+  Yapi ~1102838 (sayfalaniyor)
 
-Windows:
-  IZMIR_TAM_KATMAN_indir.ps1
-  Cikti: %USERPROFILE%\Desktop\IZMIR_TAM\
-
-Hala yok:
-  - 2021 ortofoto tam il (maxImage)
-  - planlar/pafta/mulkiyet API query HTTP 500
+Ham buyuk JSON GitHub 100MB limiti nedeniyle .gz olarak commit edilir; ham dosya workspace'te kalir.
