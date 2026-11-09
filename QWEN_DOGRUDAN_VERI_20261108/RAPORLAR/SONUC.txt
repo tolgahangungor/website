@@ -1,15 +1,23 @@
 Tarih (Europe/Istanbul): 2026-11-09
-full_download.py agent'ta calisiyor / calistirildi.
+full_download.py / full_download_fast.py agent'ta CALISTIRILDI ve tamamlandi.
 
 TAM (complete=true):
-  Yol_Anayol     7811
-  Mahalle        1311
-  Ilce_Alani       30
-  IL_Alani          1
-  Adalar           38
-  YolOrtaHatti 229740  (json.gz depoda; ham json ~242MB diskte)
+  Yol_Anayol      7811
+  Mahalle         1311
+  Ilce_Alani        30
+  IL_Alani           1
+  Adalar            38
+  YolOrtaHatti  229740
+  Yapi         1102838
 
-DEVAM:
-  Yapi ~1102838 (sayfalaniyor)
+Dosya yollari (agent disk):
+  /workspace/QWEN_DOGRUDAN_VERI_20261108/INDIRILENLER/FULL/FULL_CbsRehberGeoHybrid_Yol_Anayol_L2.json
+  /workspace/QWEN_DOGRUDAN_VERI_20261108/INDIRILENLER/FULL/FULL_CbsRehberGeoGri_Mahalle_L157.json
+  /workspace/QWEN_DOGRUDAN_VERI_20261108/INDIRILENLER/FULL/FULL_CbsRehberGeoGri_Ilce_Alani_L155.json
+  /workspace/QWEN_DOGRUDAN_VERI_20261108/INDIRILENLER/FULL/FULL_CbsRehberGeoGri_IL_Alani_L151.json
+  /workspace/QWEN_DOGRUDAN_VERI_20261108/INDIRILENLER/FULL/FULL_CbsRehberGeoGri_Adalar_L189.json
+  /workspace/QWEN_DOGRUDAN_VERI_20261108/INDIRILENLER/FULL/FULL_CbsRehberGeoHybrid_YolOrtaHatti_L27.json (~242MB)
+  /workspace/QWEN_DOGRUDAN_VERI_20261108/INDIRILENLER/FULL/FULL_CbsRehberGeoHybrid_Yapi_L94.json (~1008MB)
+  + .json.gz kopyalari
 
-Ham buyuk JSON GitHub 100MB limiti nedeniyle .gz olarak commit edilir; ham dosya workspace'te kalir.
+Not: Yapi gz (~267MB) GitHub 100MB / LFS fork kisiti nedeniyle repo'ya push edilemedi; dosya workspace'te.
