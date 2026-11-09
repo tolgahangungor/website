@@ -1,21 +1,21 @@
-Tarih (Europe/Istanbul): 2026-11-08T23:58:20+03:00
-Cikis kok: /workspace/QWEN_DOGRUDAN_VERI_20261108
-Not: Windows D:\LMSTUDIO_DOWNLOAD\... bu Linux agent ortaminda yok; cikti buraya yazildi.
+Tarih (Europe/Istanbul): 2026-11-09
+Cikis: /workspace/QWEN_DOGRUDAN_VERI_20261108
 
-INDIRILEN DOSYALAR:
-  - /workspace/QWEN_DOGRUDAN_VERI_20261108/INDIRILENLER/CbsRehberGeoGri_Adalar_L189.json (128303 bytes)
-  - /workspace/QWEN_DOGRUDAN_VERI_20261108/INDIRILENLER/CbsRehberGeoGri_IL_Alani_L151.json (1972697 bytes)
-  - /workspace/QWEN_DOGRUDAN_VERI_20261108/INDIRILENLER/CbsRehberGeoGri_Ilce_Alani_L155.json (3184145 bytes)
-TOPLAM BOYUT: 5285145 bytes (5.04 MiB)
+OZET
+Ornek 50 kayit ise yaramaz. Sunucu maxRecordCount=1000; eksiksiz icin resultOffset sayfalama kullanildi.
 
-YERELDE BULUNAN:
-  Yok (D:\IZMIR_YENI_EYLUL\IZMIR_V2 ve D:\LMSTUDIO_DOWNLOAD mount edilmedi; 1000HH*/k0030*/Meles*/Olivelo*/*.gpkg bulunamadi)
+TAM INDIRILEN (featureCount == expectedCount):
+  FULL_CbsRehberGeoHybrid_Yol_Anayol_L2.json     7811
+  FULL_CbsRehberGeoGri_Mahalle_L157.json         1311
+  FULL_CbsRehberGeoGri_Ilce_Alani_L155.json        30
+  FULL_CbsRehberGeoGri_IL_Alani_L151.json           1
+  FULL_CbsRehberGeoGri_Adalar_L189.json            38
+  YolOrtaHatti (~229740) ve Yapi (~1102838) agent'ta devam ediyor / Windows scripti ile cekilebilir.
 
-GECILEN / ENGEL:
-  - [SHORT_OF_FULL_COVERAGE] 2021 ortofoto IzmirRaster2021: resmi download yok; native tam kapsam ~851072x793924 px, maxImage 15000x4100; tek exportImage yetmez; bbox/cozunurluk dusurulmedi
-  - [PARTIAL_SERVER_LIMIT] Yol_Anayol count=7811, YolOrtaHatti count=229740, Yapi count=1102838, Mahalle count=1311 (maxRecordCount=1000; sayfalama yapilmadi; kesik yanit kaydedilmedi)
-  - [FAIL] api/map proxy query (ibbYollar, yapiEnvanter, planlar, paftaAnahtari, rehberMulkiyet): HTTP 500 INTERNAL_ERROR; butun-dosya indirme yok
-  - [FAIL] Bayrakli WMS GetCapabilities: ConnectTimeout
-  - [FAIL] raster2021 api proxy metadata: UPSTREAM_TIMEOUT (arcgis REST metadata kullanildi)
+Windows:
+  IZMIR_TAM_KATMAN_indir.ps1
+  Cikti: %USERPROFILE%\Desktop\IZMIR_TAM\
 
-SONUC: Oncelikli 2021 ortofoto, yol, yapi, plan, pafta ve parsel icin butun-dosya veya tek-yanit tam kapsam ALINAMADI. Yalniz Il, Ilce ve Adalar geometrileri tek yanitta tam indi (5.04 MiB).
+Hala yok:
+  - 2021 ortofoto tam il (maxImage)
+  - planlar/pafta/mulkiyet API query HTTP 500
