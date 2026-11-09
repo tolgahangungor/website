@@ -1,0 +1,23 @@
+=== Yol_Anayol layer=2 total=7811
+  page 1: +1000 (1000/7811) exceeded=True
+  page 2: +1000 (2000/7811) exceeded=True
+  page 3: +1000 (3000/7811) exceeded=True
+  page 4: +1000 (4000/7811) exceeded=True
+  page 5: +1000 (5000/7811) exceeded=True
+  page 6: +1000 (6000/7811) exceeded=True
+  page 7: +1000 (7000/7811) exceeded=True
+  page 8: +811 (7811/7811) exceeded=False
+TAM OK FULL_CbsRehberGeoHybrid_Yol_Anayol_L2.json features=7811 bytes=7203074
+=== Mahalle layer=157 total=1311
+  page 1: +1000 (1000/1311) exceeded=True
+  page 2: +311 (1311/1311) exceeded=False
+TAM OK FULL_CbsRehberGeoGri_Mahalle_L157.json features=1311 bytes=14128329
+=== Ilce_Alani layer=155 total=30
+  page 1: +30 (30/30) exceeded=False
+TAM OK FULL_CbsRehberGeoGri_Ilce_Alani_L155.json features=30 bytes=3082904
+=== IL_Alani layer=151 total=1
+  page 1: +1 (1/1) exceeded=False
+TAM OK FULL_CbsRehberGeoGri_IL_Alani_L151.json features=1 bytes=1905207
+=== Adalar layer=189 total=38
+  page 1: +38 (38/38) exceeded=False
+TAM OK FULL_CbsRehberGeoGri_Adalar_L189.json features=38 bytes=118354
